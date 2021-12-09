@@ -1,0 +1,18 @@
+#register_container {
+  top: 5vh;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.registerClose_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.registerClose_button > a,
+.registerClose_button:hover {
+  text-decoration: none;
+  color: white;
+}

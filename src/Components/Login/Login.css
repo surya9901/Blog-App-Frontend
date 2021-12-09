@@ -1,0 +1,18 @@
+#login_container {
+  top: 10vh;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.loginClose_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginClose_button > a,
+.loginClose_button:hover {
+  text-decoration: none;
+  color: white;
+}
